@@ -1,0 +1,240 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    height: 100vh; /* Set body height to viewport height */
+}
+
+#page1 {
+    display: flex;
+    height: 100%; /* Set page1 height to 100% of viewport height */
+}
+
+#left {
+    width: 40%;
+    height: 100%;
+    background-color: rgb(22, 39, 59);
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    padding: 1rem;
+    position: relative; /* Set position to relative */
+}
+
+.center {
+    text-align: right;
+}
+
+.bottom {
+    margin-top: auto;
+}
+
+#right {
+    width: 60%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center; /* Center align content */
+    align-items: center; /* Center align content */
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center align content vertically */
+    align-items: center; /* Center align content horizontally */
+}
+
+
+#image4{
+    width: 300px;
+    height: 200px;
+    justify-self: start;
+    position: relative;
+    bottom: 300px;
+    left: 82px;
+}
+#image1{
+    height: 300px;
+    width: 200px;
+    position: relative;
+    bottom: 120px;
+    left: 230px;
+}
+#image2{
+    width: auto;
+    height: auto;
+    position: relative;
+    bottom: 300px;
+    left: 250px;
+
+}
+
+#image3{
+    width: 300px;
+    height: 200px;
+    justify-self: end;
+    position: relative;
+    right: 30px;
+    top: 300px;
+}
+#image5{
+    width: 500px;
+    height: 200px;
+    position: relative;
+    top: 255px;
+    right: 570px;
+
+}
+
+#loader {
+    background-color: rgb(22, 39, 59);
+    height: 50%;
+    width: 50%;
+    position: relative;
+    left: 450px;
+    border-radius: 50%;
+}
+
+
+#page2 {
+    display: flex;
+    height: 100%; /* Set page1 height to 100% of viewport height */
+}
+
+#left-2 {
+    width: 40%;
+    height: 100%;
+    background-color: rgb(99, 17, 168);
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    padding: 1rem;
+    position: relative; /* Set position to relative */
+}
+
+.center-2 {
+    text-align: right;
+}
+
+.bottom-2 {
+    margin-top: auto;
+}
+
+#right-2 {
+    width: 60%;
+    height: 100%;
+    background-color: rgb(204,204,206);
+    display: flex;
+    justify-content: center; /* Center align content */
+    align-items: center; /* Center align content */
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center align content vertically */
+    align-items: center; /* Center align content horizontally */
+}
+
+
+
+
+#loader-2 {
+    background-color: rgb(99, 17, 168);
+    height: 50%;
+    width: 50%;
+    position: relative;
+    left: 450px;
+    border-radius: 50%;
+}
+
+#movie{
+    height: 80%;
+    width: 40%;
+}
+
+
+#page3 {
+    display: flex;
+    height: 100%; /* Set page1 height to 100% of viewport height */
+}
+
+#left-3 {
+    width: 40%;
+    height: 100%;
+    background-color: rgb(1, 44, 145);
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    padding: 1rem;
+    position: relative; /* Set position to relative */
+}
+
+.center-3 {
+    text-align: right;
+}
+
+.bottom-3 {
+    margin-top: auto;
+}
+
+#right-3 {
+    width: 60%;
+    height: 100%;
+    background-color: rgb(204,204,206);
+    display: flex;
+    justify-content: center; /* Center align content */
+    align-items: center; /* Center align content */
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center align content vertically */
+    align-items: center; /* Center align content horizontally */
+}
+
+
+
+
+#loader-3 {
+    background-color: rgb(1, 44, 145);
+    height: 50%;
+    width: 50%;
+    position: relative;
+    left: 450px;
+    border-radius: 50%;
+}
+
+#entertainment{
+    height: 100%;
+    width: 60%;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    #page1 {
+        flex-direction: column;
+    }
+
+    #left, #right {
+        width: 100%;
+        height: auto;
+    }
+
+    #left {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #right {
+        padding-top: 20px;
+    }
+
+    #image4, #image1, #image2, #image3, #image5 {
+        position: static;
+        margin: 20px 0;
+    }
+}
